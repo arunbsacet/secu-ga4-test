@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GA4 Practice</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RVWD4NWYE9"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-RVWD4NWYE9');
+	</script>
+</head>
+<body>
+  <h1>GA4 practice page</h1>
+  <button onclick="gtag('event','demo_click',{button_name:'hello',value:1})">Click me</button>
+  <a href="#section2">Scroll link</a>
+  <div style="height:1500px"></div>
+  <h2 id="section2">Section 2</h2>
+</body>
+</html>
+
